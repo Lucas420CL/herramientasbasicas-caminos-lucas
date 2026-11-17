@@ -25,3 +25,11 @@ Integrar un flujo completo de análisis de datos end-to-end, abarcando desde la 
 * `/data/raw/`: Contiene los archivos fuente en formato CSV.
 * `/notebooks/`: Archivo con el código de preparación y EDA en Python.
 * `/dashboard/`: Archivo del reporte interactivo y capturas de visualización.
+
+## 5. Interpretación de Resultados y Hallazgos
+* **Evolución de las ventas:** El análisis temporal muestra un crecimiento sostenido de la plataforma entre 2016 y 2018, con picos estacionales marcados en periodos de alta actividad comercial.
+* **Distribución de estados de órdenes:** Se observa que la gran mayoría de las órdenes se completan con éxito en el estado de entregadas (*delivered*), evidenciando una buena eficiencia logística general.
+* **Categorías más vendidas:** Las categorías principales concentran el mayor volumen de transacciones, traccionando el ticket promedio de la tienda.
+
+## 6. Conclusión Final
+El desarrollo del proyecto permitió aplicar un flujo completo de análisis de datos (*end-to-end*): desde la ingesta y limpieza con Pandas y la exploración visual en Python, hasta la consolidación del tablero interactivo en Power BI. Con esto se logró responder a las preguntas de negocio planteadas, demostrando cómo el rendimiento logístico y la concentración de categorías impactan directamente en el volumen de ventas del e-commerce.
